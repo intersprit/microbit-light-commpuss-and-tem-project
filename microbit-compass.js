@@ -1,15 +1,16 @@
-let arrow: Image = null
 let heading = 0
+let arrow: Image = null
 arrow = images.arrowImage(ArrowNames.North)
-input.calibrateCompass()
 basic.forever(() => {
-    if (input.buttonIsPressed(Button.A)) {
-        basic.showNumber(heading)
-    } else if (input.buttonIsPressed(Button.B)) {
+    if (input.buttonIsPressed(Button.AB)) {
+        input.calibrateCompass()
+    } else if (input.buttonIsPressed(Button.A)) {
         basic.showNumber(input.compassHeading())
+    } else if (input.buttonIsPressed(Button.B)) {
+        basic.showNumber(Math.abs((23 - input.compassHeading()) / 45 % 8))
     } else {
-        heading = (23 - input.compassHeading() / 45) % 8
+        heading = Math.abs((23 - input.compassHeading()) / 45 % 8)
         arrow = images.arrowImage(heading)
     }
-    arrow.showImage(0)
+    arrow.plotImage(0)
 })

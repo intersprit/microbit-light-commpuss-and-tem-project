@@ -11,6 +11,11 @@ With this project, students will learn how to:
 * translate degree headings to cardinal directions
 * use a laser cutter/engraver
 
+## Project Files
+* [microbit-compass.py](microbit-compass.py) - a micropython implementation of a simple compass needle
+* [microbit-compass.js](microbit-compass.js) - a javascript implementation of the compass needle that's compatible with MakeCode
+* [Microbit Compass Rose.ai](Microbit%20Compass%20Rose.ai) - an AI file with a 24 in x 12 in layout of eight compass roses. Suitable for printing on a Epilog Mini.
+
 ## Next Steps
 Extension ideas:
 * create a treasure or scavenger hunt

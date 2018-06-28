@@ -12,9 +12,13 @@ With this project, students will learn how to:
 * use a laser cutter/engraver
 
 ## Project Files
-* [microbit-compass.py](microbit-compass.py) - a micropython implementation of a simple compass needle
-* [microbit-compass.js](microbit-compass.js) - a javascript implementation of the compass needle that's compatible with MakeCode
+* [microbit-compass.py](microbit-compass.py) - a MicroPython implementation of a simple compass needle
+* [microbit-compass.js](microbit-compass.js) - a Javascript implementation of the compass needle that's compatible with MakeCode
 * [Microbit Compass Rose.ai](Microbit%20Compass%20Rose.ai) - an AI file with a 24 in x 12 in layout of eight compass roses. Suitable for printing on a Epilog Mini.
+
+## Compass Rose Tips
+I used 1/8" or 3mm plywood for the compass rose. This allows the micro:bit buttons to sit nearly flush with the top of the plywood. I engraved with 600dpi recommended settings and had a high level of detail. Finally, I used double-sided tape to attach the micro:bit to the back of the compass rose.
+
 
 ## Next Steps
 Extension ideas:

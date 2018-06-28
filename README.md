@@ -5,3 +5,6 @@ This demonstration of the micro:bit compass uses a laser-cut wooden compass rose
 Compass source code from microbit site: http://microbit-micropython.readthedocs.io/en/latest/tutorials/direction.html
 
 Compass rose adapted from https://www.thingiverse.com/thing:2621163
+
+![Micro:bit and compass rose cut from 3mm plywood](images/microbit-and-rose.JPG)
+![Micro:bit inserted into compass rose](images/microbit-in-rose.JPG)
